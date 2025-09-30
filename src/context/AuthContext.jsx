@@ -3,7 +3,7 @@ import React, { createContext } from 'react';
 export const authDataContext = createContext();
 
 function AuthContext({ children }) {
-  let serverUrl = "https://backend-production-630b.up.railway.app/"; // No slash at the end
+  let serverUrl = "https://backend-production-630b.up.railway.app"; // No slash at the end
 
   let value = {
     serverUrl
